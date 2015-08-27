@@ -1,9 +1,9 @@
 
-\documentclass[a4paper,draft,12pt]{article}
+\documentclass[a4paper, 12pt]{article}
 
 %%%%%%%%%%%%%%%%%%%%%%Paquetes
 \usepackage[spanish]{babel}  
-\usepackage{makeidx}  %%%%%%%%%%%%%%%%%Para crear indices
+\usepackage{makeidx}
 \usepackage{indentfirst} %%%%%%%%%%%%%%%%Crear un indent al principio
 \usepackage[latin1]{inputenc}%%%%%%%%%%%%ñ y acentos
 \usepackage{amstext}%%%%%%%%
@@ -12,16 +12,15 @@
 \usepackage{amscd}%%%%%%%%%%
 \usepackage{amsmath}%%%%%%%%
 \usepackage{enumerate}%%%%%%%%%%%%%%%%Mejoras del entorno enumerate
+\usepackage[all]{xy}
 \usepackage{latexsym}
 \usepackage{color}
 \usepackage[mathcal]{eucal}%%%%%%%Caligrafica matematica
 \usepackage{graphicx}
 \usepackage{url}
-\usepackage[all]{xy}%%%%%%% Diagramas conmutativos
-\usepackage{fancyhdr}
+\usepackage{tcolorbox}
 \usepackage{setspace}
 \onehalfspacing
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -100,47 +99,26 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\pagestyle{empty}
-\makeindex
-\author{José Luis Tábara Carbajo}
 
 
+%%%%%%%%%%%%%%%%%
+\title{Algebras de Lie}
+\author{José Luis Tábara}
+\date{jltabara@gmail.com}
+%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 
 
-%%%%%%%%%%Titulo y tabla de contenidos
-\newlength{\centeroffset}
-\setlength{\centeroffset}{-0.5\oddsidemargin}
-\addtolength{\centeroffset}{0.4\evensidemargin}
-\addtolength{\textwidth}{-\centeroffset}
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+
+\vspace{-1cm}
+\maketitle
+
+\end{tcolorbox}
+
 \thispagestyle{empty}
-\vspace*{\stretch{0.8}}
-\noindent\hspace*{\centeroffset}\begin{minipage}{\textwidth}
-\flushright
-\textcolor{blue}{
-{\Huge \bfseries \sf  Álgebras de Lie}
-\noindent\rule[-1ex]{\textwidth}{5pt}\\[4.5ex]}
-\end{minipage}
-
-
-%\vspace{\stretch{0}}
-\noindent\hspace*{\centeroffset}\begin{minipage}{\textwidth}
-\flushright
-\textcolor{blue}{
- {\bfseries  
-José Luis Tábara\\[1.5ex]} 
-Versión~0.2, \today\\} %Marzo del 2007
-
-\end{minipage}
-%\addtolength{\textwidth}{\centeroffset}
-\vspace{\stretch{2}}
-
-
-
-\newpage
-
 
 \tableofcontents
 
@@ -149,26 +127,9 @@ Versión~0.2, \today\\} %Marzo del 2007
 
 
 
-%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
-
 \section{Definición y ejemplos}
 
 
-
-%%%%%%%%%%%% fancyhdr
-
-\lhead{\footnotesize Álgebras de Lie}
-\rhead{\footnotesize \bf  \thepage}
-\cfoot{}
-\pagestyle{fancy}
-\setcounter{page}{1}
-%%%%%%%%%%%%%%%%%%%%
 
 
 
