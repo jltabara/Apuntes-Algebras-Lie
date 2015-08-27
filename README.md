@@ -22,34 +22,34 @@ Apuntes sobre álgebras de Lie en formato LaTeX.
 
 9. Teorema de Engel
 
-10.Teorema de Lie
+10. Teorema de Lie
 
-11.Álgebra envolvente (falta)
+11. Álgebra envolvente (falta)
 
-12.Métrica de Killing
+12. Métrica de Killing
 
-13.Criterios de Cartan
+13. Criterios de Cartan
 
-14.Álgebras semisimples y forma de Killing
+14. Álgebras semisimples y forma de Killing
 
-15.Rango de un álgebra
+15. Rango de un álgebra
 
-16.Problemas sin colocar
+16. Problemas sin colocar
 
-17.Álgebras clásicas
+17. Álgebras clásicas
 
-18.Producto semidirecto
+18. Producto semidirecto
 
-19.Cambio de cuerpo base
+19. Cambio de cuerpo base
 
-20.Nilradical
+20. Nilradical
 
-21.Álgebra envolvente
+21. Álgebra envolvente
 
-22.Álgebra especial lineal
+22. Álgebra especial lineal
 
-23.Representaciones y módulos
+23. Representaciones y módulos
 
-24.Operaciones con módulos
+24. Operaciones con módulos
 
-25.Representaciones de sl(2)
+25. Representaciones de sl(2)
